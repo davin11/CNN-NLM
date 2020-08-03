@@ -60,9 +60,10 @@ The command to train the network CNN-NLM on synthetic data:
 CUDA_VISIBLE_DEVICES=0 python experiment_nlmcnn.py --exp_name new_train
 ```
 
-The command to train the network CNN-NLM on synthetic data:
+The command to test the network CNN-NLM on synthetic data:
 
 ```
 CUDA_VISIBLE_DEVICES=0 python experiment_nlmcnn.py --eval --eval_epoch 50 --exp_name new_train
 ```
 
+NOTE: the SSIM of the paper is little different because it was computed using Matlab instead of Python.

@@ -1,6 +1,6 @@
 ---
 layout: paper
-paper: Nonlocal CNN SAR Image Despeckling]()
+paper: Nonlocal CNN SAR Image Despeckling
 github_url: https://github.com/davin11/CNN-NLM
 authors: 
   - name: Davide Cozzolino

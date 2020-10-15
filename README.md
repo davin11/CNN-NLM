@@ -51,7 +51,8 @@ python generate_noisy_synthetics.py
 ## Usage
 
 ### Demo
-coming soon: `demo_sync.py` and `demo_real.py`.
+Use `demo_sync.py` to execute a demo for the network CNN-NLM on synthetic data.
+coming soon: `demo_real.py`.
 
 ### Training and Testing
 The command to train the network CNN-NLM on synthetic data:
@@ -66,4 +67,6 @@ The command to test the network CNN-NLM on synthetic data:
 CUDA_VISIBLE_DEVICES=0 python experiment_nlmcnn.py --eval --eval_epoch 50 --exp_name new_train
 ```
 
-NOTE: the SSIM of the paper is little different because it was computed using Matlab instead of Python.
+The script `python experiment_sarcnn17.py` is the implementation in Python/Torch of the paper "SAR image despeckling through convolutional neural networks". 
+
+NOTE: the SSIM of the paper is little different because it was computed using Matlab instead of Python. 
